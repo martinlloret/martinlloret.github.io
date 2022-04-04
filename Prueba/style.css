@@ -1,0 +1,36 @@
+.link {
+    font-size: medium;
+    background-color: rgb(250, 250, 250);
+}
+.label {
+    font-style:initial;
+    font-size: medium;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline; 
+    text-decoration-color: rgb(10, 10, 10);
+
+}
+.hola {
+    font-size: medium;
+    font-style:oblique;
+    float: left;
+}
+.parrafo {
+    font-style: normal;
+}
+.titulo2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(20, 20, 20);
+    
+}
+.aside{
+    float: right;
+    width: 40%;
+    
+
+}
+.titulos {
+    float: right;
+}
