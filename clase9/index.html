@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 9</title>
+    <style>
+       * {
+            margin: 0px;
+        }
+        .divbox {
+            margin-top: 15px;
+            border: 2px solid red;
+            padding: 25px 10px;
+            width: 45%;
+            box-sizing: content-box;
+            display: inline-block;
+            text-align: center;
+                }     
+        
+        h3{
+            color:aqua;
+        } 
+        #sec1 {
+            color:blue
+        }
+        #sec2 {
+            margin: 0 auto;
+            width: 150px;
+        }
+        .medidas {
+            font-size: 10px;
+
+        }
+        .medidas h3 {
+            font-size: 3em;
+        }
+        .medidas p {
+            font-size: 1.5em;
+        }
+        .foto {
+            width: 15cm;
+            height: 10cm;
+            background-color: antiquewhite;
+        }
+        .cuadrado {
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: relative;
+            left: 200px;
+            top:150px;
+        }
+        .circulo { 
+            background: blue;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+
+        }
+        .fijo {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            position: fixed;
+        }
+    </style>
+    </head>
+<body>
+    <main>
+        <section>
+            <div class="fijo"></div>
+            <div class="cuadrado">
+
+            </div>
+        </section>
+        <div class="circulo">
+
+        </div>
+        <section> 
+            <div class="divbox">
+                <h1>texto</h1>
+            </div>
+            <div class="divbox">
+                <h2> sub titulo </h2>
+            </div>
+        </section>
+        <section id="sec2">
+            <h3 id="sec1" style="color:blueviolet;">subtitulo 3</h3>
+        </section>
+        <section class="medidas">
+            <h3>texto en h3</h3>
+            <p>texto en section</p>
+        </section>
+
+        <section class="foto">
+            <img src="argentina.jpg">
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
